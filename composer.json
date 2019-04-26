@@ -1,0 +1,35 @@
+{
+    "name": "YL20181120/laravel-id-card-of-china",
+    "description": "Laravel 中国身份证验证",
+    "type": "library",
+    "keywords": [
+        "laravel idcard",
+        "identity",
+        "身份证",
+        "身份证验证",
+        "laravel 身份证验证"
+    ],
+    "require": {
+        "laravel/framework": "5.*",
+        "jasmine/id-card-of-china": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jasmine2",
+            "email": "youjingqiang@vip.qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YL20181120\\LaravelIdCard\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "YL20181120\\LaravelIdCard\\": "src"
+        }
+    }
+}
