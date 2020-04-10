@@ -10,7 +10,7 @@
         "laravel 身份证验证"
     ],
     "require": {
-        "laravel/framework": "6.*",
+        "laravel/framework": ">=6.0",
         "jasmine/id-card-of-china": "^1.2"
     },
     "license": "MIT",
